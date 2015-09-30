@@ -5,6 +5,7 @@ module.exports = function(grunt) {
     // https://github.com/sindresorhus/load-grunt-tasks
     require('load-grunt-tasks')(grunt);
 
+    // http://gruntjs.com/configuring-tasks#grunt-configuration
     grunt.initConfig({
 
         // https://www.npmjs.com/package/grunt-responsive-images
