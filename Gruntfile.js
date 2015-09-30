@@ -76,7 +76,7 @@ module.exports = function(grunt) {
                 },
             },
 
-            user: ['app/js/**/*.js'],
+            user: ['app/js/**/*.js', '!app/js/jQuery.js'],
 
             gruntfile: {
                 options: {
