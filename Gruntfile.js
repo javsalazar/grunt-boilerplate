@@ -134,6 +134,7 @@ module.exports = function(grunt) {
                     livereload: true
                 }
             },
+
             responsive_images: {
                 files: ['images_src/*.{gif,jpg,png}'],
                 tasks: ['responsive-img']
@@ -151,6 +152,7 @@ module.exports = function(grunt) {
                     hostname: '127.0.0.1'
                 }
             },
+
             dist: {
                 options: {
                     port: 9001,
@@ -161,8 +163,7 @@ module.exports = function(grunt) {
                     hostname: '127.0.0.1'
                 }
             }
-        },
-
+        }
     });
 
 // Tasks to run
