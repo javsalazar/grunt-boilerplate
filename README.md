@@ -16,14 +16,14 @@ if all went well above the we are ready to use Grunt.
 * add directory app/, dist/, and images_src/ at the root of your project.
 
 
-## Place Your Project Files in the app/ folder
+## Place Your Project Files In The app/ Folder
 
 remember that if you cloned this directory there is already a git repo at the root of the project, if you clone the project repo like so: `git clone git@github.com:udacity/frontend-nanodegree-resume.git app` remember to delete the .git folder in app so it won't be a repo within a repo, that would be a problem. If you are familiar with submodules by all means us it.
 
-## install grunt plugins
+## Install Grunt Plugins
 
 since we have the packages.json file we don't have to manually install each plugin like so: `npm install grunt-responsive-images --save-dev`.  Instead do `npm install` on the root directory of project to install all plugins at once. 
 
-** Ready for Gruntfile.js
+** Ready For Gruntfile.js
 
 Now that the project and directories structure is set take a look at Grunfile.js and make any necessary changes to the settings or options of each task.
